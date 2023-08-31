@@ -3,7 +3,7 @@
 
 Welcome to the JavaScript Calculator repository! This project showcases a fully functional calculator built using HTML, CSS, and JavaScript. Whether you're a coding enthusiast or just curious about web development, this calculator provides a hands-on example of how these technologies come together to create an interactive user experience.
 
-![Calculator Preview](assets/calculator-preview.png)
+![Calculator Preview](assets/previewImg.png)
 
 ## 🚀 Features
 
