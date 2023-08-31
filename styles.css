@@ -5,8 +5,9 @@ html, body {
     font-family: cursive;
     text-align: center;
     min-height: 100vh;
-    background-color: #b1cafea0;
+    background-color:  #FFDE03;
     color: black;
+    box-sizing: border-box;
 }
 
 .container {
@@ -14,17 +15,17 @@ html, body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    box-shadow: 3px 2px 6px #151515;
 }
 
 .app {
     max-width: 300px;
-    background-color: #535359;
+    background-color: #0336FF;
     border-radius: 11px;
     padding: 8px;
     display: flex;
     flex-direction: column;
-    box-shadow: 3px 3px 9px #12fb22;
-    outline: 2px solid #12fb22;
+    box-shadow: 3px 2px 6px #151515;
 }
 
 .appTittle{
@@ -61,11 +62,12 @@ html, body {
     font-weight: 900px;
     outline: none;
     border: none;
+    background-color: #0336FF;
     margin: 3px;
-    color:  #080010c0;  
+    color:  white;  
     outline: 1px solid #5973f5;
     font-size: 20px;
-    box-shadow: 3px 2px 6px #b1b1b4;
+    box-shadow: 3px 2px 6px #151515;
 
 }
 .fbtn{
@@ -77,18 +79,21 @@ html, body {
     font-weight: 900px;
     outline: none;
     border: none;
+    background-color: #F44336;
     margin: 3px;
     color: rgb(46, 46, 44);
     outline: 2px solid #5973f5;
     font-size: 20px;
-    box-shadow: 3px 2px 6px  #9a9aa3;
+    box-shadow: 3px 2px 6px #151515;
 
    
 }
 .screenDisplay{
-    background-color: #9a9aa3;
+    background-color: #f5f5fc;
     display: flex;
+    border-radius: 5px;
     flex-direction: column;
+    
 }
 .calculate{
     font-size: 20px;
@@ -98,6 +103,11 @@ html, body {
     justify-content: end;
 
 }
+
+#equals{
+  background-color: #4CAF50;
+}
+
 .btn:hover{
     outline: none;
     background-color: black;
@@ -109,4 +119,7 @@ html, body {
     background-color: black;
     color: white;
     
+}
+.designer{
+    color: rgb(250, 246, 249);
 }
