@@ -1,6 +1,3 @@
-<div align="center">
-  <img src="assets/calculator-preview.png" alt="JavaScript Calculator" width="300">
-</div>
 
 # JavaScript Calculator 🧮
 
