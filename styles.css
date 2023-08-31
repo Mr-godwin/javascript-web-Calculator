@@ -1,31 +1,32 @@
-html body{
-    background-color: #b1cafea0;
-    color: black;
+html, body {
+    margin: 0;
+    padding: 0;
     font-size: medium;
-    font-family: 600px;
     font-family: cursive;
     text-align: center;
-    padding: 0;
-    margin: 0;
     min-height: 100vh;
+    background-color: #b1cafea0;
+    color: black;
 }
-.container{
-    max-width: 300px;
+
+.container {
+    display: flex;
     justify-content: center;
-    margin: 10%;
+    align-items: center;
+    height: 100vh;
 }
-.app{
+
+.app {
     max-width: 300px;
     background-color: #535359;
     border-radius: 11px;
     padding: 8px;
-    margin: 100px auto;
     display: flex;
-    box-shadow: 3px 3px 9px #12fb22;
     flex-direction: column;
-    justify-content: center;
+    box-shadow: 3px 3px 9px #12fb22;
     outline: 2px solid #12fb22;
 }
+
 .appTittle{
     text-align: center;
     color: white;
@@ -96,25 +97,6 @@ html body{
     padding: 5px;
     font-weight: 900px;
     justify-content: end;
-
-}
-#point{
-     
-}
-#equals{
-  
-}
-#add{
-   
-}
-#subtract{
-
-}
-#divide{
-
-}
-#multiply{
-    
 
 }
 .btn:hover{
