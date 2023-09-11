@@ -2,7 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     font-size: medium;
-    font-family: cursive;
+    font-family:auto;
     text-align: center;
     min-height: 100vh;
     background-color:  #FFDE03;
